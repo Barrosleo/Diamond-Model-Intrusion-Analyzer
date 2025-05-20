@@ -9,6 +9,28 @@ Develop a tool that ingests cybersecurity incident data (from logs or threat fee
 
 This tool aids SOC analysts in visualizing attack relationships, highlighting detection gaps, and refining mitigation strategies.
 
+## Repository Structure
+
+Diamond-Model-Intrusion-Analyzer/
+├── backend/
+│   ├── app.py                   # Main Flask application
+│   ├── data_parser.py           # Module for log ingestion & parsing
+│   ├── diamond_classifier.py    # Rule-based engine for Diamond Model classification
+│   ├── requirements.txt         # Python dependencies
+│   └── templates/
+│       └── dashboard.html       # HTML template for the dashboard
+├── frontend/
+│   ├── index.html               # Standalone dashboard interface (optional)
+│   ├── css/
+│   │   └── style.css            # Dashboard styling
+│   └── js/
+│       └── visualization.js     # JavaScript for interactive charts
+├── data/
+│   └── sample_incidents.json    # Sample incident logs for testing/demo
+├── docs/
+│   └── README.md                # Detailed project overview & usage instructions
+└── .gitignore                   # Files/directories to ignore in Git
+
 ## Key Features
 - **Data Ingestion & Parsing:**  
   Accept incident log files (JSON, CSV, log formats), extract attributes such as IP addresses, suspicious commands, and contextual data.
