@@ -54,11 +54,11 @@ This tool aids SOC analysts in visualizing attack relationships, highlighting de
 
 -  Advanced machine learning for improved classification.
 
-=  Integration with live SIEM systems for real-time analysis.
+-  Integration with live SIEM systems for real-time analysis.
 
-=  User authentication and role-based access control.
+-  User authentication and role-based access control.
 
-=  Enhanced reporting and export functionality.
+-  Enhanced reporting and export functionality.
 
 ## License
 
