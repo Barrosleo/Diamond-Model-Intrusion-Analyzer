@@ -1,0 +1,17 @@
+[
+  {
+    "timestamp": "2025-05-15T08:00:00Z",
+    "description": "Detected APT activity from a known threat actor targeting financial data",
+    "artifact": "APT Group XYZ"
+  },
+  {
+    "timestamp": "2025-05-15T09:00:00Z",
+    "description": "Suspicious DNS query from compromised server indicating C2 activity",
+    "artifact": "malicious.example.com"
+  },
+  {
+    "timestamp": "2025-05-15T10:00:00Z",
+    "description": "User reported suspicious phishing email; potential victim identified",
+    "artifact": "employee@company.com"
+  }
+]
