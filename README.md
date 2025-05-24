@@ -54,7 +54,7 @@ Diamond-Model-Intrusion-Analyzer/
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/Diamond-Model-Intrusion-Analyzer.git
+   git clone https://github.com/Barrosleo/Diamond-Model-Intrusion-Analyzer.git
    cd Diamond-Model-Intrusion-Analyzer
    ```
 2. **Setup the Backend:**
